@@ -12,6 +12,12 @@ function convertTemp(tempInput, tempUnit){
   }
 }
 
-var temperature = convertTemp(212, "C");
+var temp1 = convertTemp(212, "C");
+var temp2 = convertTemp(32, "C");
+var temp3 = convertTemp(65, "C");
+var temp4 = convertTemp(-40, "F");
 
-console.log(temperature);
+console.log(temp1);
+console.log(temp2);
+console.log(temp3);
+console.log(temp4);
