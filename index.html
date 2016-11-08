@@ -1,17 +1,27 @@
 <!DOCtype html>
 <html>
 <head>
-  <script src="script.js" type="text/javascript"></script>
   <link rel="stylesheet" href="styles.css">
   <title>Temperature Converter</title>
 </head>
 
 <body>
   <div class="fixed-text">
-    <span>
+    <span id="title">
       TEMPERATURE CONVERTER!
       <br/>
     </span>
+    <div id="converterBox">
+      <input type="text" id="newTemp" placeholder="32"/>
+      <br/>
+      <input type="text" id="newUnit" placeholder="F"/>
+      <br/>
+      <button type="button" id="calculateButton">calculate</button>
+    </div>
+    <div id="outputBox">
+      your answer here
+    </div>
   </div>
+<script src="script2.js" type="text/javascript"></script>
 </body>
 </html>
